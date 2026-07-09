@@ -6,4 +6,5 @@ labels: [bug]
 assignees: []
 body:
   - type: markdown
-    attributes: "## BUG!"
+    attributes: 
+      value: "## BUG!"
