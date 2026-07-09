@@ -8,3 +8,6 @@ body:
   - type: markdown
     attributes: 
       value: "## BUG!"
+  - type: textarea
+    attributes:
+      label: "What's wrong?"
