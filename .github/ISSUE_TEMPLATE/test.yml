@@ -3,3 +3,7 @@ name: "Bug"
 description: Bug
 title: "A Bug issue"
 labels: [bug]
+assignees: []
+body:
+  - type: markdown
+    attributes: "## BUG!"
