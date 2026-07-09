@@ -9,7 +9,7 @@ jobs:
   handle_non_labeled_issues:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@main
       - uses: ./.github/actions/handle-non-labeled-issues
         with:
           labels: |
