@@ -9,7 +9,8 @@ jobs:
   handle_non_labeled_issues:
     runs-on: ubuntu-latest
     steps:
-      - uses: aws-actions/handle-non-labeled-issues@release-1.0
+      - uses: actions/checkout@latest
+      - uses: ./.github/actions/handle-non-labeled-issues
         with:
           labels: |
             needs-triage
