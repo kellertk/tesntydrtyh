@@ -1,0 +1,5 @@
+---
+name: "Bug"
+description: Bug
+title: "A Bug issue"
+labels: [bug]
